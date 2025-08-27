@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5f8abfe44ee2428d9785c4f848c72e9, type: 3}
+  m_Name: prizes
+  m_EditorClassIdentifier: 
+  prizes:
+  - prizeName: prize-1
+    prizeNumber: 1
+    prizeActualCode: C1
+    prizeRarityLevel: Common
+    prizeRarityCode: C
+  - prizeName: prize-2
+    prizeNumber: 2
+    prizeActualCode: U1
+    prizeRarityLevel: Uncommon
+    prizeRarityCode: U
+  - prizeName: prize-3
+    prizeNumber: 3
+    prizeActualCode: R1
+    prizeRarityLevel: Rare
+    prizeRarityCode: R
+  - prizeName: prize-4
+    prizeNumber: 4
+    prizeActualCode: L1
+    prizeRarityLevel: Legendary
+    prizeRarityCode: L
+  - prizeName: prize-5
+    prizeNumber: 5
+    prizeActualCode: M1
+    prizeRarityLevel: Mythic
+    prizeRarityCode: M
+  ItemRating:
+  - Rating: Common
+    RatingCode: C
+    Number: 1
+    RatingFrame: {fileID: 21300000, guid: a3a4634a938c2448da5dee56959ce4ae, type: 3}
+  - Rating: Uncommon
+    RatingCode: U
+    Number: 2
+    RatingFrame: {fileID: 21300000, guid: d8996c042cc28499f86df681553206bf, type: 3}
+  - Rating: Rare
+    RatingCode: R
+    Number: 3
+    RatingFrame: {fileID: 21300000, guid: 5e8867a36b5d6446fa467c9bf63d98dc, type: 3}
+  - Rating: Legendary
+    RatingCode: L
+    Number: 4
+    RatingFrame: {fileID: 21300000, guid: e764fb3e85dae4941b9e564ab29e2c9c, type: 3}
+  - Rating: Mythic
+    RatingCode: M
+    Number: 5
+    RatingFrame: {fileID: 21300000, guid: e764fb3e85dae4941b9e564ab29e2c9c, type: 3}
+  PrizeItem:
+  - Name: COIN1
+    Code: C1
+    picture: {fileID: 21300000, guid: 21c9a2a00de524b5fa8d825ac1e0940a, type: 3}
+    AmountPrize: 10
+  - Name: COIN2
+    Code: C2
+    picture: {fileID: 21300000, guid: 73488b2f5db5540808c4c6b5bed797e2, type: 3}
+    AmountPrize: 22
+  - Name: COIN3
+    Code: C3
+    picture: {fileID: 21300000, guid: b91f74874e02f4be1bce9bff70dc2d75, type: 3}
+    AmountPrize: 33
+  - Name: BAG1
+    Code: U1
+    picture: {fileID: 21300000, guid: 0356c404168a74c1ea76aa0827f97a0a, type: 3}
+    AmountPrize: 1
+  - Name: BAG2
+    Code: U2
+    picture: {fileID: 21300000, guid: 4ea4e86fde0944e3288c64acf12e801c, type: 3}
+    AmountPrize: 2
+  - Name: BAG3
+    Code: U3
+    picture: {fileID: 21300000, guid: 3893487f2423946e6b822c268b647492, type: 3}
+    AmountPrize: 3
+  - Name: CHEST1
+    Code: R1
+    picture: {fileID: 21300000, guid: cb59a9d6090514336a289fb30fc9b922, type: 3}
+    AmountPrize: 1
+  - Name: CHEST2
+    Code: R2
+    picture: {fileID: 21300000, guid: 7106dd7ade4ba4234814877e219df0c9, type: 3}
+    AmountPrize: 2
+  - Name: CHEST3
+    Code: R3
+    picture: {fileID: 21300000, guid: b7d151dacc33f434896af8ec6258fb7c, type: 3}
+    AmountPrize: 3
+  - Name: DIAMOND1
+    Code: L1
+    picture: {fileID: 21300000, guid: 6e370ac874ff74898af3b9bb1374232f, type: 3}
+    AmountPrize: 1
+  - Name: DIAMOND2
+    Code: L2
+    picture: {fileID: 21300000, guid: f3fbb8e98d915447ea633bc7c2e29621, type: 3}
+    AmountPrize: 2
+  - Name: DIAMOND3
+    Code: L3
+    picture: {fileID: 21300000, guid: 3523f81b0938843888468661e18fa4bd, type: 3}
+    AmountPrize: 10
+  - Name: ZONK
+    Code: M1
+    picture: {fileID: 21300000, guid: 6cf950237d9b1421aba077b3f1173400, type: 3}
+    AmountPrize: 0
+  - Name: EMPTY
+    Code: E1
+    picture: {fileID: 21300000, guid: 55fc7850abb854a16a564cc1681204b5, type: 3}
+    AmountPrize: 0
+  prizeforLocations:
+  - startBendsCode: 1
+    PrizeCode: U0001
+    BgCode: U
+  - startBendsCode: 2
+    PrizeCode: U0001
+    BgCode: U
+  - startBendsCode: 3
+    PrizeCode: R0001
+    BgCode: R
+  - startBendsCode: 4
+    PrizeCode: L0001
+    BgCode: L
+  LapPrizes:
+  - LapNumber: 1
+    LapTarget: 5
+    reward_Rating: C
+    reward_Name: COIN1
+    reward_Code: C1
+    reward_Amount: 1000
+    reward_Image: {fileID: 21300000, guid: 21c9a2a00de524b5fa8d825ac1e0940a, type: 3}
+    reward_Texture: {fileID: 2800000, guid: 21c9a2a00de524b5fa8d825ac1e0940a, type: 3}
+    reward_border: {fileID: 21300000, guid: ba537397c8fb94b26b9c40a53e438d21, type: 3}
+  - LapNumber: 2
+    LapTarget: 10
+    reward_Rating: C
+    reward_Name: COIN2
+    reward_Code: C2
+    reward_Amount: 2000
+    reward_Image: {fileID: 21300000, guid: 73488b2f5db5540808c4c6b5bed797e2, type: 3}
+    reward_Texture: {fileID: 2800000, guid: 73488b2f5db5540808c4c6b5bed797e2, type: 3}
+    reward_border: {fileID: 21300000, guid: ba537397c8fb94b26b9c40a53e438d21, type: 3}
+  - LapNumber: 3
+    LapTarget: 15
+    reward_Rating: C
+    reward_Name: COIN3
+    reward_Code: C3
+    reward_Amount: 30000
+    reward_Image: {fileID: 21300000, guid: b91f74874e02f4be1bce9bff70dc2d75, type: 3}
+    reward_Texture: {fileID: 2800000, guid: b91f74874e02f4be1bce9bff70dc2d75, type: 3}
+    reward_border: {fileID: 21300000, guid: ba537397c8fb94b26b9c40a53e438d21, type: 3}
+  ItemGet_BG: {fileID: 21300000, guid: 27b190277bcba472391e9e2e1a96d949, type: 3}
+  button_press: {fileID: 21300000, guid: 57f4d4fad59054a4da35318285a2b717, type: 3}
+  button_UnPress: {fileID: 21300000, guid: c88874cd8ebeb449faff32a3a005a3c2, type: 3}
+  Delay_PressButton: 5
+  codeStartInit: E1
+  codeStartAfter: L01
