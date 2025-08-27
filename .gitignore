@@ -1,37 +1,21 @@
-# Unity generated folders
+# Unity
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
-[Bb]uild/
-[Bb]uilds/
+[Bb]uild*/
 [Ll]ogs/
-[Mm]emoryCaptures/
 UserSettings/
+MemoryCaptures/
+# VS / OS
 .vs/
 .DS_Store
-
-# Visual Studio
-*.csproj
-*.unityproj
+# Unity packages cache (generated)
+Packages/PackageCache/
+# C#/VS artifacts
 *.sln
-*.suo
-*.tmp
+*.csproj
+*.pidb
 *.user
 *.userprefs
-*.pidb
-*.booproj
-*.svd
-*.pdb
-*.mdb
 *.opendb
 *.VC.db
-
-# Crash & build reports
-*.stackdump
-
-# Git LFS (optional for big files)
-*.psd
-*.mp4
-*.wav
-*.fbx
-*.unitypackage
